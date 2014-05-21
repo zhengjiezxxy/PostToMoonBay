@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "PostToMoonBay",
+  "description": "This extension is for posting articles on any webpages to a website",
+  "short_name": "PTMB",
+  "version": "1.0",
+
+  "permissions": [
+    "contextMenus",
+    "http://*/*/",
+    "https://*/*",
+    "cookies"
+    ],
+
+
+  "browser_actions":{
+    "default_icon": "moonbay.png",
+    "default_title": "Post To MoonBay"
+  }
+
+}
